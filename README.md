@@ -4,10 +4,10 @@ This project demonstrates a simple Dockerized SQL project using Python, SQLite, 
 The project includes a Python script (`app.py`) that connects to an SQLite database, creates a table, inserts data, and queries it. The project is Dockerized, allowing easy deployment and execution in a consistent environment.
 ## Prerequisites
 - [Docker](https://www.docker.com/get-started)
-    # Build the Docker image:
+    <sub>Build the Docker image:</sub>
     bash
     docker build -t my-sql-app:latest .
-    # Run the Docker container:
+    <sub>Run the Docker container:</sub>
     bash
     Copy code
     docker run --name my-sql-container my-sql-app:latest
